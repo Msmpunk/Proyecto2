@@ -1,0 +1,52 @@
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>web development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Rubik|Yanone+Kaffeesatz|Luckiest+Guy|Poppins" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <header></header>
+    <section class="container-page">
+      <div class="container">
+        <div class="nav-bar">
+          <div class="brand-logo"><a href="index.html">Atomo</a></div>
+          <nav>
+            <ul>
+              <li><a href="autor.html">Inicio</a></li>
+              <li><a href="resumen.html">Resumen</a></li>
+              <li><a href="preguntas.html">Cuestionario</a></li>
+              <li><a href="bibliografia.html">Bibliografia</a></li>
+            </ul>
+          </nav>
+          <ul class="hide-menu"><i class="fa fa-bars" onclick="sh()"><span>Menu</span></i></ul>
+          <nav class="hide-nav" id="show-hide">
+            <ul></ul>
+            <li><a href="autor.html">Inicio</a></li>
+            <li><a href="resumen.html">Resumen</a></li>
+            <li><a href="preguntas.html">Cuestionario</a></li>
+            <li><a href="bibliografia.html">Bibliografia</a></li>
+          </nav>
+        </div>
+        <div class="content-question">
+          <h2>Es hora de empezar</h2>
+          <div id="container-cards"></div>
+          <button class="btn mt-4 btn-primary" id="send">Enviar respuesta</button>
+        </div>
+      </div>
+    </section>
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <div id="modalContent"></div>
+        <button class="btn btn-primary close-modal">aceptar</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/only-one.js"></script>
+    <script type="text/javascript" src="js/bundle.js"></script>
+  </body>
+</html>
