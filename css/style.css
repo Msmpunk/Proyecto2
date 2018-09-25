@@ -362,7 +362,7 @@ html, body {
 
 /* The Close Button */
 .close-modal {
-  width: 20%;
+  width: 150px;
   margin: auto; }
   .close-modal:hover, .close-modal:focus {
     color: #000;
